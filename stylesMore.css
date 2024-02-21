@@ -229,3 +229,10 @@ img {
 #WELCOME_MESSAGE {
   display: inline-block;
 }
+
+.comments {
+    
+    position: relative;
+    top: -750px;
+    left: 10px;
+}

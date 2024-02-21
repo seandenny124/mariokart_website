@@ -1,12 +1,13 @@
 p {
     color: black;
+    position: relative;
+    right: -700px;
+    top: -265px;
 } 
 
 h1 {
-  position: relative;
     color: purple;
-    top: -325px;
-    
+    transform: translateY(20%);
   
 } 
 
@@ -20,7 +21,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 header {
@@ -80,9 +80,8 @@ section {
 
 .page button {
 position: relative;
-    left: 175%;
+    left: 50%;
     transform: translateX(-50%);
-    top: -320px;
 
     
 }
@@ -147,7 +146,7 @@ img {
   padding: 5px;
   width: 250px;
   height: 300px;
-  transform: translateY(-5%);
+  transform: translateY(-21%);
 
 }
 
@@ -191,41 +190,55 @@ img {
 
   .footer { 
     
-    position: absolute; 
+    position: relative; 
     bottom: 0; 
     left: 0; 
     z-index: 10;
     color: blue;
-    margin-top: -50%;
+    margin-top: 59%;
 }
 
 .search {
   position: relative;
-  top: -1100px;
+  top: -1050px;
   left: 1150px;
 }
 
 .description {
-  position: relative;
- /* transform: translateY(-215%); */
- box-align: left;
- size: 80%;
- width: 80%;
- top: -800px;
-  right: -10px;
-  font-size: 20px;
-  color: purple;
+ position: relative;
+transform: translateY(-215%);
+ right: -10px;
+ font-size: 20px;
+ color: green;
+  
 }
 
-.last-img {
-  position: absolute;
-  padding: 5px;
-  width: 250px;
-  height: 300px;
-  right: 200px;
-  top: 400px;
+.listedImgKarts {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -15%;
 }
 
-#WELCOME_MESSAGE {
-  display: inline-block;
+.listedImgKarts img {
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+.kart-button {
+    position: relative;
+    background-color: orange;
+    color: white;
+    font: bold;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    right: -300px;
+    top: -200px;
 }
