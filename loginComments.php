@@ -1,9 +1,10 @@
+
 <html>
     <head>
         <title>Mario Kart Lore</title>
         <link rel="icon" type="image/x-icon" href="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_400/ncom/en_US/games/switch/m/mario-kart-8-deluxe-switch/description-image">
-        <link rel="stylesheet" href="stylesIndex.css">
-
+        <link rel="stylesheet" href="stylesLoginComments.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
 
@@ -11,7 +12,6 @@
             <div id = "WELCOME">
                 <div id ="LOGO">
             <img src="https://mario.wiki.gallery/images/7/7a/MK8_Star_Cup_Alternate_Emblem.svg">
-
                 </div>
                 <div id = "TITLE">
                     <div id = "HEAD TITLE">
@@ -19,7 +19,7 @@
                     </div>
                     <div id = "WELCOME_MESSAGE" >
                         <div class="page">
-                            <button class="my-button">Welcome to Mario Kart Lore!</button>
+                            <button class="my-button">More: Comments and Questions</button>
                         </div>
                     </div>
                 </div>
@@ -44,13 +44,14 @@
             <button class="tablinks"><a href="login.html">Log In</a></button>
             <button class="tablinks"><a href="signup.html">Sign Up</a></button>
         </div>
+    
             
         <div class="tab">
-            <button class="my-button">Homepage</button>
+            <button class="tablinks"><a href="index.html">Homepage</button>
             <button class="tablinks"> <a href="karts.html">Karts</a></button>
-            <button class="tablinks"><a href="maps.html">Maps</a></button>
+            <button class="my-button"><a href="maps.html">Maps</a></button>
             <button class="tablinks"><a href="characters.html">Characters</a></button>
-            <button class="tablinks"><a href="more.html">More</a></button>
+            <button class="my-button">More</button>
         <!-- <button class="tablinks" onclick="openCity(event, 'London')">London</button>
         <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
         <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
@@ -74,13 +75,12 @@
                                 </div>
 
                         <div class = "description" >
-                            Weclome to the Mario Kart Lore website! Throughout this page, you will be able <br> to find
-                            different information about all the nintendo Mario Kart games! <br> <br> There are multiple tabs to be
-                            clicked on above, such as: <br> <br> Characters, which will give information about each character <br> the
-                            weight class, and the lore behind them. <br> <br> Karts will give information about stats and speed <br> of 
-                            karts, and origin game. <br> <br> Maps will go over most popular maps from the series and where they originate <br> (if they do)
-                            from. <br> <br> Any questions or want to know more? Head on over to the more tab, <br>happy researching!
-                            
+                            Comments:  
+                        </div>
+
+                        <div class = "comments">
+                            <label for="Name">Enter a Comment</label>
+                            <input type="text" id="Name" name="Name" placeholder="Login stuff will be here"> 
                         </div>
         </div>
         <div class="footer">Copyright Nintendo PSYCH I own nintendo now don't mess with me >:)</div>
